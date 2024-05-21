@@ -40,3 +40,11 @@ function calculadora(numero1, numero2, operador) {
     return resultado;
 }
 
+// solicitando os números e o operador ao usuário
+let numero1 = prompt("Digite o primeiro número:");
+let numero2 = prompt("Digite o segundo número:");
+let operador = prompt("Qual sera seu operador? \n1 +; \n2 -; \n3 *; \n4 /; \n5 e; ")
+
+// chamando a função calculadora e resultado
+let resultado = calculadora(numero1, numero2, operador);
+console.log("O resultado é: " + resultado);
